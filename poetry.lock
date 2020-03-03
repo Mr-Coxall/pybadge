@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = "Standard Board mechanism for Dojo tasks"
+name = "board"
+optional = false
+python-versions = "*"
+version = "1.0"
+
+[metadata]
+content-hash = "f7f608505647cea659bb2147fcb5ee13529792ebaad8d3b3ba52fd7e13630ae7"
+python-versions = "^3.8"
+
+[metadata.hashes]
+board = ["b97c986d0190a2a5181a7fe28959cd8515520b87f672796e21e1b0d32cc63e2f", "cd718c3322a126d86455e24ae0cebb59a567cbdbaf03696391dccf88c8f456d6"]
