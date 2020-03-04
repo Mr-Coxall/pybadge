@@ -5,11 +5,11 @@ import board
 import neopixel
 
 display = board.DISPLAY
-
+ 
 led = digitalio.DigitalInOut(board.D13)
 led.direction = digitalio.Direction.OUTPUT
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 5, auto_write=False)
-
+ 
 while True:
     led.value = True
     time.sleep(1.0)
